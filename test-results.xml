@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="11" failures="0" errors="0" time="3.237">
+  <testsuite name="src/test/AddMovieForm.test.tsx" errors="0" failures="0" skipped="0" timestamp="2022-07-17T19:36:52" time="1.745" tests="2">
+    <testcase classname="AddMovieForm Component" name="calls onSubmitSpy handler for submit button" time="0.06">
+    </testcase>
+    <testcase classname="AddMovieForm Component" name="calls onCancelSpy handler for cancel button" time="0.023">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/test/MovieCard.test.tsx" errors="0" failures="0" skipped="0" timestamp="2022-07-17T19:36:52" time="1.754" tests="3">
+    <testcase classname="MovieCard Component" name="displays correct movie data" time="0.06">
+    </testcase>
+    <testcase classname="MovieCard Component" name="displays correct movie rating" time="0.019">
+    </testcase>
+    <testcase classname="MovieCard Component" name="displays correct movie rating stars width" time="0.013">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/test/MovieList.test.tsx" errors="0" failures="0" skipped="0" timestamp="2022-07-17T19:36:52" time="1.854" tests="1">
+    <testcase classname="MovieList Component" name="should not display a movie after it gets deleted" time="0.177">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/test/App.test.tsx" errors="0" failures="0" skipped="0" timestamp="2022-07-17T19:36:52" time="2.071" tests="5">
+    <testcase classname="App Component" name="should display header" time="0.085">
+    </testcase>
+    <testcase classname="App Component" name="should fetch movies using the service" time="0.139">
+    </testcase>
+    <testcase classname="App Component" name="should display current movie rating" time="0.054">
+    </testcase>
+    <testcase classname="App Component" name="should update the rating after star icon was clicked" time="0.051">
+    </testcase>
+    <testcase classname="App Component" name="should add a new movie after form was filled and submitted" time="0.075">
+    </testcase>
+  </testsuite>
+</testsuites>
